@@ -1,0 +1,98 @@
+body{
+    display:flex;
+    justify-content: center;
+}
+
+#seconds, #minutes, #hours{
+    display:flex;
+
+
+}
+.left, .right{
+    display:flex;
+    flex-direction: column;
+    margin-left:10px;
+}
+
+
+.zero_t, .one_t, .two_t, .three_t, .four_t, .five_t, .six_t, .seven_t, .eight_t, .nine_t{
+    border-width: 10px 10px 5px 10px;
+    border-color: lightgrey;
+    border-style:solid;
+    height: 50px;
+    width:50px;
+}
+.zero_b, .one_b, .two_b, .three_b, .four_b, .five_b, .six_b, .seven_b, .eight_b, .nine_b{
+    border-width: 5px 10px 10px 10px;
+    border-color: lightgrey;
+    border-style:solid;
+    height: 50px;
+    width:50px;
+}
+
+.one_t, .one_b, .seven_t, .seven_b, .four_b{
+    border-right-color: black;
+}
+
+.two_t, .three_t,.three_b, .five_b, .nine_b {
+    border-top-color: black;
+    border-right-color: black;
+    border-bottom-color: black;
+}
+
+.two_b, .five_t, .six_t{
+    border-top-color: black;
+    border-left-color: black;
+    border-bottom-color: black;
+}
+
+.four_t, .zero_b{
+    border-left-color: black;
+    border-bottom-color:black;
+    border-right-color:black;
+}
+.four_b, .seven_t {
+    border-top-color: black;
+    border-right-color:black;
+}
+
+.six_b, .eight_b, .eight_t, .nine_t{
+    border-color:black;
+}
+
+.zero_t{
+    border-top-color: black;
+    border-left-color: black;
+    border-right-color: black;
+}
+
+
+.separator{
+    width:20px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.point {
+    width: 10px;
+    height: 10px;
+    background: lightgrey;
+}
+
+.pointOn{
+    width: 10px;
+    height:10px;
+    background:black;
+}
+
+#start, #stop{
+    margin-left: 10px;
+}
+
+
+
+
+
